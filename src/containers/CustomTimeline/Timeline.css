@@ -1,0 +1,71 @@
+.timeline {
+  padding: 0 !important;
+  margin-left: 15px;
+}
+
+/* Header Title*/
+.timeline .timeline_header {
+  padding-top: 10px;
+  font-size: 1rem !important;
+}
+
+.timeline .timeline_main_item {
+  min-height: 15px !important;
+}
+
+/* MuiTimelineItem-root is class defined by Material-ui*/
+.timeline .MuiTimelineItem-root {
+  min-height: 0px;
+}
+
+.timeline .MuiTimelineItem-missingOppositeContent::before {
+  display: none;
+}
+
+.timeline .timeline_dot_header {
+  color: rgb(14, 10, 10) !important;
+  background-color: var(--main-dot-color);
+  margin-bottom: 1px;
+  padding: 12px;
+}
+
+/** Remaining Itemds */
+
+.timeline .timeline_dot {
+  color: rgb(94, 43, 43) !important;
+  border-color: rgb(161, 156, 156) !important;
+  background-color: var(--stopover-dot-color);
+  padding: 10px !important;
+}
+
+.timeline .MuiTimelineConnector-root {
+  background-color: rgb(97, 112, 114) !important;
+}
+
+.timeline .separator_padding {
+  padding-left: 6px;
+}
+
+.timeline .timeline_content {
+  padding-top: 0px !important;
+  margin-bottom: 0px;
+}
+
+/** Paper */
+
+.paper {
+  border-radius: 10px !important;
+  margin: 5%;
+  cursor: pointer;
+}
+
+.paper .avatar {
+  margin-left: 10px;
+}
+
+.direction_name {
+  padding: 10px 0 10px 0;
+  font-style: oblique;
+  color: gray;
+  color: rgb(117, 116, 61);
+}

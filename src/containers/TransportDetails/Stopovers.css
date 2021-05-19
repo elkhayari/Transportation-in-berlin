@@ -1,0 +1,34 @@
+.timeline .MuiTimelineItem-missingOppositeContent::before {
+  display: none;
+}
+
+.timeline {
+  padding: 0px !important;
+  margin-left: 15px !important;
+}
+
+.header_item {
+  text-align: center;
+}
+
+.timeline .timeline_content {
+  padding-top: 2px !important;
+  margin-bottom: 0px;
+}
+
+.timeline .separator_padding {
+  padding-left: 6px;
+}
+
+.timeline .timeline_station {
+  font-size: 15px !important;
+  color: rgb(15, 14, 12);
+  margin-top: 5px;
+}
+
+.timeline .MuiTimelineConnector-root {
+  margin: -4px;
+  height: 50px !important;
+  width: 1px;
+  margin-bottom: -50px;
+}

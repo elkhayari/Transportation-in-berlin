@@ -1,0 +1,6 @@
+.trip_container {
+  margin-bottom: 10px !important;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.9);
+}

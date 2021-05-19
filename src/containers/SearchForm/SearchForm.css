@@ -1,0 +1,22 @@
+.search_form {
+  padding-top: 20px;
+  text-align: center;
+}
+
+.radio_group {
+  margin: 40px 0 20px 0;
+}
+
+.radio_group .MuiFormLabel-root {
+  margin-left: -65%;
+  text-align: none !important;
+  font-size: 1rem;
+  color: rgb(13, 13, 15);
+}
+
+.favorite-label {
+  margin-top: 10px;
+  margin-left: -35% !important;
+  color: rgb(13, 13, 19) ortant;
+  font-size: 1rem;
+}
